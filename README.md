@@ -1,15 +1,15 @@
 # maxentstudy
-Efficiency is not concered in this project.
-This project is to study maximum entropy classifier on my own.
-I refered to following github to surprass overflow error on exponential function
-https://github.com/hprovenza/MaxEnt-classifier
+Efficiency is not concered in this project.<br/>
+This project is to study maximum entropy classifier on my own.<br/>
+I refered to following github to surprass overflow error on exponential function<br/>
+https://github.com/hprovenza/MaxEnt-classifier<br/>
 
-(pelican) Kwanghoons-MacBook-Pro:MyPractice kwanghoonan$ python maxent.py 
-5    20187
-4    12876
-3     6527
-1     6263
-2     4147
+(pelican) Kwanghoons-MacBook-Pro:MyPractice kwanghoonan$ python maxent.py <br/>
+5    20187<br/>
+4    12876<br/>
+3     6527<br/>
+1     6263<br/>
+2     4147<br/>
 Name: stars, dtype: int64
 Train # : 45000
 Test # : 5000
