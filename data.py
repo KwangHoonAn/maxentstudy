@@ -30,8 +30,8 @@ def getData():
 	test = []
 
 	for cls in yelp.groupby('stars'):
-		train.append(cls[1][:3000])
-		test.append(cls[1][3000:4000])
+		train.append(cls[1][:-1000])
+		test.append(cls[1][-1000:])
 	_train = []
 	_train_label = []
 	_test = []
