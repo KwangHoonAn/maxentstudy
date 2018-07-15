@@ -4,6 +4,21 @@ This project is to study maximum entropy classifier on my own.<br/>
 I refered to following github to surprass overflow error on exponential function<br/>
 https://github.com/hprovenza/MaxEnt-classifier<br/>
 
+Note :
+1. Unigram and Bigram are used as a feature function<br/>
+2. In the learning step, first term of the likelihood is 'empirical count' of feature function and second term is 'expected count' of feature function.<br/>
+For example, suppose sentence "bad bad experience restaurant" has unique three feature functions<br/>
+We can formulate 2d vector [sentiment x features in corpus] and sum up empirical count<br/>
+pos-[0, 0, 0]<br/>
+neg-[2, 1, 1]<br/>
+where, first column denotes "bad" and rest tokens corresponds to each following columns in order<br/>
+For second term, supppose same example sentence is recognized as negative with 70% probabilty<br/>
+We can formulate same 2d vector as follow for expected count<br/>
+pos-[0, 0, 0]<br/>
+neg-[0.7+0.7, 0.7, 0.7]<br/>
+Rest part of the implementation is very straightforward!<br/>
+
+
 (pelican) Kwanghoons-MacBook-Pro:MyPractice kwanghoonan$ python maxent.py <br/>
 5    20187<br/>
 4    12876<br/>
