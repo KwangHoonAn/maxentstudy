@@ -16,7 +16,6 @@ For second term, supppose same example sentence is recognized as negative with 7
 We can formulate same 2d vector as follow for expected count<br/>
 pos-[0, 0, 0]<br/>
 neg-[0.7+0.7, 0.7, 0.7]<br/>
-Rest part of the implementation is very straightforward!<br/>
 
 
 (pelican) Kwanghoons-MacBook-Pro:MyPractice kwanghoonan$ python maxent.py <br/>
