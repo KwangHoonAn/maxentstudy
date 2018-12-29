@@ -42,3 +42,7 @@ Iteration : 9  Gradient : 233250.09569945032  Neg likelihood -3888.1097378659915
 Iteration : 10  Gradient : 221399.7404561218  Neg likelihood -3930.0455557952355  ACC : 0.6242<br/>
 Iteration : 11  Gradient : 228422.08284046422  Neg likelihood -4223.580680043418  ACC : 0.6258<br/>
 Iteration : 12  Gradient : 220909.77532204858  Neg likelihood -3871.7739250846785  ACC : 0.6272<br/>
+
+My hand-written note deriving relationship between maximum entropy clasifier and maximum entropy principle is based on
+https://www.quora.com/What-is-the-relationship-between-Log-Linear-model-MaxEnt-model-and-Logistic-Regression
+http://www.cs.columbia.edu/~smaskey/CS6998/slides/statnlp_week6.pdf
